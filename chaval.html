@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica kevin css</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header{
+            background-color: blueviolet;
+            color: aliceblue;
+            text-align: center;
+            padding: 1rem;
+        }
+        main{
+            flex:1;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+        }
+        .box{
+            background-color: dimgray;
+            padding: 1rem;
+            margin: 0.5rem;
+            text-align: center;
+            border: 1px solid #cccccc28;
+            flex:1;
+        }
+        footer{
+            background-color: darkslategray;
+            color: azure;
+            text-align: center;
+            padding: 1rem;
+            
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1> pagina de peces</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="box">bacalao</div>
+            <p>vive en mares de agua fria y templada y puede vivir en profundidades de hasta 1200m</p>
+            <div class="box">pez betta</div>
+            <p></p>
+            <div class="box">salmon</div>
+            <div class="box">piraña</div>
+            <div class="box">tiburon</div>
+            <div class="box">pez leon</div>
+        </div>
+    </main>
+    <footer>
+        <p> &copy; 2024 peces</p>
+    </footer>
+</body>
+</html>
